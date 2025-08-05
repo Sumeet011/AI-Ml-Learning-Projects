@@ -6,7 +6,7 @@ import pandas as pd          # For handling and processing datasets
 import matplotlib.pyplot as plt  # For plotting graphs
 
 # 📥 Load dataset from CSV file
-data = pd.read_csv('linear regression dataset.csv')
+data = pd.read_csv('data.csv')
 
 # ⚙️ Function to perform one step of gradient descent for linear regression
 def gradient_descent(points, m_now, b_now, learning_rate):
